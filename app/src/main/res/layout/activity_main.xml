@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btnUsers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/get_users" />
+
+    <Button
+        android:id="@+id/btnMedications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/get_medications" />
+
+    <Button
+        android:id="@+id/btnDoses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/get_doses" />
+
+    <Button
+        android:id="@+id/btnSymptoms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/get_symptoms" />
+
+    <Button
+        android:id="@+id/btnNotifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/get_notifications" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/response_placeholder"
+        android:textSize="16sp"
+        android:paddingTop="20dp"/>
+</LinearLayout>

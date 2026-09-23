@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CareAlertApp</string>
+    <string name="get_users">Get Users</string>
+    <string name="get_medications">Get Medications</string>
+    <string name="get_doses">Get Doses</string>
+    <string name="get_symptoms">Get Symptoms</string>
+    <string name="get_notifications">Get Notifications</string>
+    <string name="response_placeholder">Response will appear here</string>
+    <string name="request_failed">Request failed: %1$s</string>
+    <string name="no_data">No data received</string>
+</resources>
