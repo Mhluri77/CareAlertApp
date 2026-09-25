@@ -7,16 +7,19 @@ CareAlertApp is an Android application designed to help caregivers and patients 
 
 ## Features
 - User login and authentication
+- Welcome Screen
 - Patient management
 - Medication tracking
 - Care alerts with priority levels
 - SQL database schema (`carealert_db.sql`) included
+
 
 ## Tech Stack
 - Kotlin (Android)
 - Jetpack Compose / XML layouts
 - Room Database
 - MySQL schema export
+- IntelliJ (Backend)
 
 ## Setup
 1. Clone the repository:
