@@ -20,6 +20,7 @@ CareAlertApp is an Android application designed to help caregivers and patients 
 - Room Database
 - MySQL schema export
 - IntelliJ (Backend)
+- MySQL Workbench 
 
 ## Setup
 1. Clone the repository:
