@@ -26,8 +26,11 @@ CareAlertApp is an Android application designed to help caregivers and patients 
 YouTube Video Links:
 
 https://youtu.be/H_7FHWCQZo8
+
 https://youtu.be/EOn3R5d9bKQ
+
 https://youtu.be/WTTO46uJIkA
+
 https://youtu.be/PQNvjl9EmnA
 
 (There are many videos because there was a problem with the YouTube channel taking down the videos it only worked when we started posting shorter videos.)
