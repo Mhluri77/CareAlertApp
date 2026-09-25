@@ -17,10 +17,9 @@ CareAlertApp is an Android application designed to help caregivers and patients 
 ## Tech Stack
 - Kotlin (Android)
 - Jetpack Compose / XML layouts
-- Room Database
 - MySQL schema export
 - IntelliJ (Backend)
-- MySQL Workbench 
+- MySQL Workbench (CareAlertApp Database)
 
 ## Setup
 1. Clone the repository:
