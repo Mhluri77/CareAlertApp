@@ -1,0 +1,39 @@
+<resources>
+
+    <string name="app_name">CareAlert</string>
+
+    <string name="welcome_message">U amukedzwa kha CareAlert App</string>
+    <string name="carealert_title">CareAlert</string>
+    <string name="healthcare_companion">Muthusi Wanu wa Mutakalo</string>
+
+    <string name="continue_text">Bvelani Phanḓa</string>
+
+    <string name="login">Ngena</string>
+    <string name="welcome_back">Ri A Ni Ṱanganedza Hafhu</string>
+    <string name="sign_in_continue">Ngenani u itela u bvela phanḓa</string>
+
+    <string name="username">Dzina la Mushumisi</string>
+    <string name="password">Phasiwede</string>
+
+    <string name="notifications">Zwidivhadzo</string>
+    <string name="symptoms">Zwiga</string>
+    <string name="medication">Mishonga</string>
+    <string name="contacts">Vhathu Vha Fulufhedzeaho</string>
+    <string name="adherence">Tshikalo tsha u Tevhedza</string>
+
+    <string name="settings">Nzudzanyo</string>
+    <string name="help">Thuso</string>
+    <string name="logout">Bva</string>
+
+    <string name="dark_mode">Moudu wa Swiswi</string>
+
+    <string name="language_updated">Luambo lwo khwiniswa</string>
+    <string name="language_saved">Luambo lwo vhulungwa</string>
+
+    <string name="help_screen">Sikirini tsha Thuso</string>
+    <string name="view_user_guide">Vhonani Tsumbanḓila ya Mushumisi</string>
+
+    <string name="adherence_score">Tshikalo tshanu tsha u tevhedza:</string>
+    <string name="recalculate_score">Vhalani Hafhu Tshikalo</string>
+
+</resources>

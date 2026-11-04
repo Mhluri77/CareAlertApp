@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Base.Theme.MyApplication"
+        parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/carealert_primary</item>
+        <item name="colorSecondary">@color/carealert_secondary</item>
+
+        <item name="android:statusBarColor">@color/carealert_primary_dark</item>
+
+    </style>
+
+    <style name="Theme.MyApplication"
+        parent="Base.Theme.MyApplication" />
+
+</resources>

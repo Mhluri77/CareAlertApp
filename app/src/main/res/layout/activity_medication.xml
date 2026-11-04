@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Medication"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/medicationNameField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Medication Name" />
+
+        <EditText
+            android:id="@+id/dosageField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Dosage" />
+
+        <EditText
+            android:id="@+id/frequencyField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Frequency" />
+
+        <EditText
+            android:id="@+id/reminderTimeField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Reminder Time" />
+
+        <EditText
+            android:id="@+id/notesField"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Notes" />
+
+        <Button
+            android:id="@+id/saveMedicationButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Medication"
+            android:backgroundTint="@color/carealert_primary" />
+
+        <Button
+            android:id="@+id/viewMedicationsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Saved Medications"
+            android:backgroundTint="@color/carealert_primary"/>
+
+    </LinearLayout>
+
+</ScrollView>

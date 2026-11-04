@@ -1,0 +1,39 @@
+<resources>
+
+    <string name="app_name">CareAlert</string>
+
+    <string name="welcome_message">O amogetswe ho CareAlert App</string>
+    <string name="carealert_title">CareAlert</string>
+    <string name="healthcare_companion">Mothuši wa Gago wa Tlhokomelo ya Maphelo</string>
+
+    <string name="continue_text">Tšwela Pele</string>
+
+    <string name="login">Kena</string>
+    <string name="welcome_back">Re go Amogela Gape</string>
+    <string name="sign_in_continue">Kena go tšwela pele</string>
+
+    <string name="username">Leina la Modiriši</string>
+    <string name="password">Lentšuphetišo</string>
+
+    <string name="notifications">Ditemošo</string>
+    <string name="symptoms">Maswao</string>
+    <string name="medication">Dihlare</string>
+    <string name="contacts">Dikgokagano tše Botegago</string>
+    <string name="adherence">Tekanyo ya Kobamelo</string>
+
+    <string name="settings">Dipeakanyo</string>
+    <string name="help">Thušo</string>
+    <string name="logout">Tšwa</string>
+
+    <string name="dark_mode">Mokgwa wa Leswiswi</string>
+
+    <string name="language_updated">Polelo e mpshafaditšwe</string>
+    <string name="language_saved">Polelo e bolokilwe mo lefelong</string>
+
+    <string name="help_screen">Sekirini sa Thušo</string>
+    <string name="view_user_guide">Lebelela Tlhahli ya Modiriši</string>
+
+    <string name="adherence_score">Tekanyo ya gago ya kobamelo:</string>
+    <string name="recalculate_score">Balela Gape Tekanyo</string>
+
+</resources>

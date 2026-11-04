@@ -1,0 +1,38 @@
+<resources>
+
+    <string name="app_name">CareAlert</string>
+    <string name="welcome_message">Welkom by CareAlert App</string>
+    <string name="carealert_title">CareAlert</string>
+    <string name="healthcare_companion">Jou Persoonlike Gesondheidsmaat</string>
+
+    <string name="continue_text">Gaan voort</string>
+
+    <string name="login">Meld aan</string>
+    <string name="welcome_back">Welkom Terug</string>
+    <string name="sign_in_continue">Meld aan om voort te gaan</string>
+
+    <string name="username">Gebruikersnaam</string>
+    <string name="password">Wagwoord</string>
+
+    <string name="notifications">Kennisgewings</string>
+    <string name="symptoms">Simptome</string>
+    <string name="medication">Medikasie</string>
+    <string name="contacts">Vertroude Kontakte</string>
+    <string name="adherence">Nakomingstelling</string>
+
+    <string name="settings">Instellings</string>
+    <string name="help">Hulp</string>
+    <string name="logout">Teken Uit</string>
+
+    <string name="dark_mode">Donker Modus</string>
+
+    <string name="language_updated">Taal opgedateer</string>
+    <string name="language_saved">Taal plaaslik gestoor</string>
+
+    <string name="help_screen">Hulpskerm</string>
+    <string name="view_user_guide">Bekyk Gebruikersgids</string>
+
+    <string name="adherence_score">Jou nakomingstelling:</string>
+    <string name="recalculate_score">Herbereken Telling</string>
+
+</resources>

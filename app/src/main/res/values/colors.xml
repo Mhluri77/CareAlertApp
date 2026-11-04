@@ -1,0 +1,12 @@
+<resources>
+
+    <color name="carealert_primary">#5BC0FF</color>
+    <color name="carealert_primary_dark">#2196F3</color>
+    <color name="carealert_secondary">#81D4FA</color>
+
+    <color name="carealert_background">#F5FCFF</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+</resources>

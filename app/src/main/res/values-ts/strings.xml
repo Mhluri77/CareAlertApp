@@ -1,0 +1,39 @@
+<resources>
+
+    <string name="app_name">CareAlert</string>
+
+    <string name="welcome_message">U amukeriwile eka CareAlert App</string>
+    <string name="carealert_title">CareAlert</string>
+    <string name="healthcare_companion">Mupfuni Wa Wena Wa Rihanyo</string>
+
+    <string name="continue_text">Yana Emahlweni</string>
+
+    <string name="login">Nghena</string>
+    <string name="welcome_back">Ha Ku Amukela Nakambe</string>
+    <string name="sign_in_continue">Nghena leswaku u ya emahlweni</string>
+
+    <string name="username">Vito ra Mutirhisi</string>
+    <string name="password">Phasiwedi</string>
+
+    <string name="notifications">Switiviso</string>
+    <string name="symptoms">Swikombiso</string>
+    <string name="medication">Mirhi</string>
+    <string name="contacts">Vuhlanganisi lebyi Tshembekaka</string>
+    <string name="adherence">Mpimo wa Ku Landzelela</string>
+
+    <string name="settings">Swiletelo</string>
+    <string name="help">Mpfuno</string>
+    <string name="logout">Huma</string>
+
+    <string name="dark_mode">Mokgwa wa Munyama</string>
+
+    <string name="language_updated">Ririmi ri pfuxetiwile</string>
+    <string name="language_saved">Ririmi ri hlayisiwile</string>
+
+    <string name="help_screen">Xikirini xa Mpfuno</string>
+    <string name="view_user_guide">Vona Nkongomiso wa Mutirhisi</string>
+
+    <string name="adherence_score">Mpimo wa wena wa ku landzelela:</string>
+    <string name="recalculate_score">Hlanganisa Nakambe Mpimo</string>
+
+</resources>

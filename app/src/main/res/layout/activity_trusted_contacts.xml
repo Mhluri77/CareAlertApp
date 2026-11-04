@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Trusted Contacts"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/contactNameField"
+        android:hint="Contact Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/contactPhoneField"
+        android:hint="Contact Phone"
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/saveContactButton"
+        android:text="Save Contact"
+        android:backgroundTint="@android:color/holo_blue_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/viewContactsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Contacts"
+        android:backgroundTint="@android:color/holo_green_light"/>
+</LinearLayout>
+

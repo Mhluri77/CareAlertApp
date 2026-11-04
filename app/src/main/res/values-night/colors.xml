@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="carealert_primary">#29B6F6</color>
+    <color name="carealert_primary_dark">#0288D1</color>
+    <color name="carealert_secondary">#81D4FA</color>
+
+    <color name="background_light">#121212</color>
+    <color name="text_light">#FFFFFF</color>
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="loginButton" type="id" />
+    <item name="passwordField" type="id" />
+    <item name="usernameField" type="id" />
+    <item name="continueButton" type="id" />
+    <item name="notificationButton" type="id" />
+    <item name="symptomButton" type="id" />
+    <item name="medicationButton" type="id" />
+    <item name="settingsButton" type="id" />
+    <item name="helpButton" type="id" />
+    <item name="logoutButton" type="id" />
+    <item name="viewGuideButton" type="id" />
+    <item name="addMedicationButton" type="id" />
+    <item name="addNotificationButton" type="id" />
+    <item name="changeThemeButton" type="id" />
+    <item name="addSymptomButton" type="id" />
+    <item name="main" type="id" />
+    <item name="contactNameField" type="id" />
+    <item name="contactPhoneField" type="id" />
+    <item name="saveContactButton" type="id" />
+    <item name="adherenceScore" type="id" />
+    <item name="recalculateScoreButton" type="id" />
+    <item name="englishButton" type="id" />
+    <item name="afrikaansButton" type="id" />
+    <item name="sepediButton" type="id" />
+    <item name="vendaButton" type="id" />
+    <item name="tsongaButton" type="id" />
+</resources>
