@@ -6,7 +6,9 @@ import java.util.Locale
 
 object LocaleHelper {
 
-    fun applyLanguage(context: Context): Context {
+    fun setLocale(
+        context: Context
+    ): Context {
 
         val prefs =
             context.getSharedPreferences(
@@ -20,7 +22,8 @@ object LocaleHelper {
                 "en"
             ) ?: "en"
 
-        val locale = Locale(language)
+        val locale =
+            Locale(language)
 
         Locale.setDefault(locale)
 

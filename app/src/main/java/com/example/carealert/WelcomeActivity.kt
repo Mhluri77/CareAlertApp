@@ -1,6 +1,7 @@
 package com.example.carealert
 
 import android.content.Intent
+import android.content.Context
 import android.content.res.Configuration
 import android.os.Build
 import android.os.Bundle
@@ -8,14 +9,29 @@ import android.widget.Button
 import androidx.annotation.RequiresApi
 import androidx.appcompat.app.AppCompatActivity
 import java.util.Locale
+import me.pushy.sdk.Pushy
 
 class WelcomeActivity : AppCompatActivity() {
 
+    override fun attachBaseContext(
+        newBase: Context
+    ) {
+        super.attachBaseContext(
+            LocaleHelper.setLocale(
+                newBase
+            )
+        )
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
+
+
 
         applySavedLanguage()
 
         super.onCreate(savedInstanceState)
+
+        Pushy.listen(this)
 
         val preferences =
             getSharedPreferences(

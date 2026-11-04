@@ -1,5 +1,7 @@
 package com.example.carealert
 
+import android.annotation.SuppressLint
+import android.content.Context
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
@@ -8,8 +10,19 @@ import androidx.appcompat.app.AppCompatActivity
 
 class AdherenceActivity : AppCompatActivity() {
 
+    override fun attachBaseContext(
+        newBase: Context
+    ) {
+        super.attachBaseContext(
+            LocaleHelper.setLocale(
+                newBase
+            )
+        )
+    }
+
     private var adherenceScore = 85
 
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_adherence)

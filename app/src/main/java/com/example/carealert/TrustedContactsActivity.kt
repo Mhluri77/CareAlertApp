@@ -1,5 +1,6 @@
 package com.example.carealert
 
+import android.content.Context
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -11,6 +12,16 @@ import com.android.volley.toolbox.Volley
 import org.json.JSONObject
 
 class TrustedContactsActivity : AppCompatActivity() {
+
+    override fun attachBaseContext(
+        newBase: Context
+    ) {
+        super.attachBaseContext(
+            LocaleHelper.setLocale(
+                newBase
+            )
+        )
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

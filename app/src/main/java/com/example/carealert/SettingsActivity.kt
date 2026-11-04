@@ -1,5 +1,6 @@
 package com.example.carealert
 
+import android.content.Context
 import android.content.SharedPreferences
 import android.content.res.Configuration
 import android.os.Bundle
@@ -11,6 +12,16 @@ import androidx.appcompat.app.AppCompatDelegate
 import java.util.Locale
 
 class SettingsActivity : AppCompatActivity() {
+
+    override fun attachBaseContext(
+        newBase: Context
+    ) {
+        super.attachBaseContext(
+            LocaleHelper.setLocale(
+                newBase
+            )
+        )
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

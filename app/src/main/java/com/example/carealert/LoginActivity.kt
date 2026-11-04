@@ -1,5 +1,6 @@
 package com.example.carealert
 
+import android.content.Context
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
@@ -14,6 +15,16 @@ import com.android.volley.toolbox.Volley
 import org.json.JSONObject
 
 class LoginActivity : AppCompatActivity() {
+
+    override fun attachBaseContext(
+        newBase: Context
+    ) {
+        super.attachBaseContext(
+            LocaleHelper.setLocale(
+                newBase
+            )
+        )
+    }
 
     private val loginUrl =
         "http://192.168.18.169:8080/api/login"
@@ -30,6 +41,22 @@ class LoginActivity : AppCompatActivity() {
 
         val loginButton =
             findViewById<Button>(R.id.loginButton)
+
+
+        val registerButton =
+            findViewById<Button>(
+                R.id.registerScreenButton
+            )
+
+        registerButton.setOnClickListener {
+
+            startActivity(
+                Intent(
+                    this,
+                    RegisterActivity::class.java
+                )
+            )
+        }
 
         loginButton.setOnClickListener {
 
@@ -87,14 +114,9 @@ class LoginActivity : AppCompatActivity() {
                     )
 
                 preferences.edit()
-                    .putBoolean(
-                        "isLoggedIn",
-                        true
-                    )
-                    .putString(
-                        "username",
-                        email
-                    )
+                    .putBoolean("isLoggedIn", true)
+                    .putString("username", email)
+                    .putLong("userId", response.getLong("userId"))
                     .apply()
 
                 Toast.makeText(

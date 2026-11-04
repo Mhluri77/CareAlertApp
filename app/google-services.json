@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "558090399403",
+    "project_id": "carealert-c818c",
+    "storage_bucket": "carealert-c818c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558090399403:android:ced476b00e717a839851ee",
+        "android_client_info": {
+          "package_name": "com.example.carealert"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgBtNmCCbp3WhQcbpYIHJVZ21xZ1o-7aY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

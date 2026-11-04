@@ -9,7 +9,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.myapplication"
+        applicationId = "com.example.carealert"
         minSdk = 24
         targetSdk = 37
         versionCode = 1
@@ -32,12 +32,14 @@ android {
 }
 
 dependencies {
-    implementation("com.google.firebase:firebase-messaging:24.1.0")
+    implementation("com.google.firebase:firebase-installations")
+    implementation("com.google.firebase:firebase-messaging:24.1.2")
     implementation("com.android.volley:volley:1.2.1")
     implementation(libs.androidx.activity.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.androidx.core.ktx)
+    implementation("me.pushy:sdk:1.0.127")
     implementation(libs.material)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.espresso.core)

@@ -30,4 +30,10 @@
     <string name="language_updated">Language updated</string>
     <string name="language_saved">Language saved offline</string>
 
+    <string name="help_screen">Help Screen</string>
+    <string name="view_user_guide">View User Guide</string>
+
+    <string name="adherence_score">Your Adherence Score</string>
+    <string name="recalculate_score">Recalculate Score</string>
+
 </resources>

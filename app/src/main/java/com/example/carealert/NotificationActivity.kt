@@ -1,6 +1,7 @@
 package com.example.carealert
 
 import android.os.Bundle
+import android.content.Context
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
@@ -11,6 +12,16 @@ import com.android.volley.toolbox.Volley
 import org.json.JSONObject
 
 class NotificationActivity : AppCompatActivity() {
+
+    override fun attachBaseContext(
+        newBase: Context
+    ) {
+        super.attachBaseContext(
+            LocaleHelper.setLocale(
+                newBase
+            )
+        )
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
