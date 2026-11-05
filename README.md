@@ -1,45 +1,160 @@
-# CareAlert Backend
+# CareAlert – Medication Reminder Application
 
-## Overview
-The CareAlert Backend is a Spring Boot REST API that supports the CareAlert Android application.
+## 1. Introduction
 
-It manages application data, medication information, device registration and push notifications.
+CareAlert is an Android application that helps users manage their medication and remember when to take it.
 
-## Technologies
+Users can register, log in, add medication, track their medication activities and receive notifications when it is time to take their medicine.
+
+The application uses an Android frontend connected to a Spring Boot backend and a MySQL database.
+
+## 2. Main Features
+
+- User registration and login.
+- Add and manage medication.
+- Automatic medication reminders.
+- Push notifications using Pushy.
+- Medication synchronisation.
+- Medication adherence tracking.
+- Symptom recording.
+- Trusted contacts.
+- Help and support.
+- Application settings and language support.
+
+## 3. Technologies Used
+
+**Frontend:**
+- Kotlin
+- XML
+- Android Studio
+- Volley
+- Pushy Android SDK
+
+**Backend:**
 - Java
 - Spring Boot
+- Spring Data JPA
+- Hibernate
 - Maven
 - MySQL
-- Hibernate / JPA
-- Pushy Push Notifications
+- Pushy REST API
 
-## Project Structure
-- `src/main/java` - Backend Java source code
-- `src/main/resources` - Application resources
-- `pom.xml` - Maven dependencies and configuration
+**Other tools:**
+- Postman
+- Git and GitHub
 
-## Requirements
-- Java JDK
-- MySQL Server
+## 4. How the System Works
 
-## Configuration
-Create your own `src/main/resources/application.properties` file.
+CareAlert has two main parts:
 
-Configure your database connection and Pushy API key locally.
+1. **Android application:** Allows users to manage their medication and use the application's features.
+2. **Spring Boot backend:** Handles requests from the Android app, stores information in MySQL and sends notifications through Pushy.
 
-Do not upload passwords or API secrets to GitHub.
+The Android app communicates with the backend using REST APIs.
 
-## Running the Backend
-From the Backend directory, run:
+## 5. Project Structure
+
+```text
+CareAlertApp/
+│
+├── app/              Android application
+├── Backend/          Spring Boot backend
+├── gradle/           Gradle files
+├── build.gradle.kts
+├── settings.gradle.kts
+└── README.md
+```
+
+## 6. Installation and Setup
+
+### Android Application
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Mhluri77/CareAlertApp.git
+```
+
+2. Open the project in Android Studio.
+3. Allow Gradle to synchronise.
+4. Connect an Android phone or emulator.
+5. Build and run the application.
+
+### Backend
+
+1. Open the `Backend` folder in IntelliJ IDEA.
+2. Make sure Java and MySQL are installed.
+3. Create and configure the MySQL database.
+4. Add your local database details and Pushy API key to `application.properties`.
+5. Start the backend using:
 
 ```powershell
 .\mvnw.cmd spring-boot:run
 ```
 
-The application uses port 8080 by default.
+The backend runs on port `8080` by default.
 
-## Push Notifications
-The backend integrates with Pushy to send notifications to registered Android devices.
+## 7. Push Notifications and Medication Reminders
 
-## Medication Reminders
-An automated scheduler checks medication schedules and sends reminders when they are due.
+CareAlert uses Pushy to send notifications to Android devices.
+
+When a user registers their device, the application receives a Pushy device token and sends it to the backend.
+
+The backend stores this token and uses it to send notifications.
+
+The medication reminder service checks medication schedules regularly and sends a notification when medication is due. It also records when a reminder was sent to help prevent duplicate notifications.
+
+## 8. Network Configuration
+
+The Android application currently connects to the backend using this local IP address:
+
+```text
+http://192.168.18.169:8080/api/carealert/users
+```
+
+This is the developer's laptop IP address.
+
+For the application to work:
+
+- The backend must be running on the laptop.
+- The phone and laptop must use the same Wi-Fi network.
+- The IP address must be correct.
+
+This setup is only for development and testing. To allow other users to access CareAlert, the backend must be hosted online and the Android application's API address must be updated.
+
+## 9. Testing
+
+The application can be tested by:
+
+- Registering and logging in.
+- Adding and managing medication.
+- Checking medication synchronisation.
+- Testing API requests using Postman.
+- Sending test push notifications.
+- Checking whether automatic medication reminders work.
+
+## 10. Security
+
+Database passwords and Pushy secret API keys must not be uploaded to GitHub.
+
+The `application.properties` file should remain private. Each developer must create their own local configuration file.
+
+## 11. Future Improvements
+
+Possible improvements include:
+
+- Hosting the backend online.
+- Improving medication reports.
+- Adding more notification options.
+- Improving application security.
+- Adding more testing.
+
+## 12. GitHub Repository
+
+[CareAlert GitHub Repository](https://github.com/Mhluri77/CareAlertApp)
+
+## 13. Conclusion
+
+CareAlert helps users manage their medication and receive reminders on time. It combines an Android application, a Spring Boot backend, a MySQL database and Pushy notifications to provide a simple medication management system.
+
+**CareAlert – Helping users stay on track with their medication.**
