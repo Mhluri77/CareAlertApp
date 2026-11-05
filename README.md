@@ -155,6 +155,9 @@ Possible improvements include:
 
 ## 13. Youtube Video Links
 
+[https://youtube.com/shorts/6CBFU1U9SYc?feature=share]
+
+[https://youtube.com/shorts/Qq703GLLMpI?feature=share]
 
 ## 14. Conclusion
 
